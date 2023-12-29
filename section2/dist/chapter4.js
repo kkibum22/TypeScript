@@ -9,18 +9,18 @@
 // }
 //위의 주석을 맨위의 타입의 형태로 만들어서 아래 user:User처럼 타입 값을 넣음
 let user = {
-    id: 1,
-    name: "asd",
-    nickname: "sadsad",
-    birth: "1995.06.10",
-    bio: "HI",
-    location: "jeju",
+  id: 1,
+  name: "asd",
+  nickname: "sadsad",
+  birth: "1995.06.10",
+  bio: "HI",
+  location: "jeju",
 };
 // 이렇게 가능
 let contryCodes = {
-    Korea: "ko",
-    US: "us",
-    UK: "uk",
+  Korea: "ko",
+  US: "us",
+  UK: "uk",
 };
 export {};
 // type CountryNumberCodes = {

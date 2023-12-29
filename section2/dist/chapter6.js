@@ -11,10 +11,9 @@ num = anyVar; // 어떠한 값에 할당 가능
 let unknownVar;
 unknownVar = "";
 unknownVar = 1;
-unknownVar = () => { };
+unknownVar = () => {};
 //,어떠한 값에 할당 불가하지만 이런식으로는 가능
 if (typeof unknownVar === "number") {
-    num = unknownVar;
+  num = unknownVar;
 }
-console.log(123123);
 export {};
