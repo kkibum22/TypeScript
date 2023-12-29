@@ -1,0 +1,21 @@
+//"include": ["src"] -> src폴더의 모든걸 컴파일 해라 ->경로 설정을 안하고 tsc명령어 입력하면 src내의 모든 파일이 컴파일 됨
+
+//compilerOptiond{}내부
+//"target": "ESNext" 컴파일을 어떤 Js버전으로 할지 정함
+//"module": "CommonJS" 모듈옵션 설정
+//"outDir": "dist" 컴파일 결과(컴파일이 끝난 js파일)를 dist라는 디렉토리에 저장
+//"strict": true 코드의 엄격성 설정
+
+//js는 각각의 파일이 개별모듈로 취급 받지만 ts파일은 기본적으로 모든 파일을 전역 모듈로 봄(즉 같은 공간에 있다 ->동일 변수 선언 불가)
+//"moduleDetection": "force" -> 컴파일하며 export,import를 추가 -> 개별모듈로 취급가능
+
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "outDir": "dist",
+    "strict": false,
+    "moduleDetection": "force"
+  },
+  "include": ["src"]
+}
