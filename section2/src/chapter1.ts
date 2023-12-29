@@ -21,7 +21,7 @@ let bool2: boolean = false;
 //null
 let null1: null = null;
 
-let numA: number = null;
+// let numA: number = null;
 //Null값을 임시로 사용해야할때 "strictNullChecks": false 사용
 
 //undifined
@@ -32,4 +32,4 @@ let unde1: undefined = undefined;
 //모든 타입을 리터럴에 넣을 수 있음
 let numB: 10 = 10;
 
-numB = 12;
+// numB = 12; -> 값은 10만 들어갈수 있음
