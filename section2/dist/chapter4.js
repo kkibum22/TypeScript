@@ -16,4 +16,17 @@ let user = {
     bio: "HI",
     location: "jeju",
 };
+// 이렇게 가능
+let contryCodes = {
+    Korea: "ko",
+    US: "us",
+    UK: "uk",
+};
 export {};
+// type CountryNumberCodes = {
+//   [key: string]: number;      //아래 객체안에 아무것도 없어도 위반되는사항이 없어서 오류가 안남
+//   Korea:string      // 위에서 밸류 값이 넘버이므로 아래 Korea의 타입도 넘버로 맞춰야함
+// };
+// let countryNumberAndStringCodes:CountryNumberCodes{
+//     Korea:"ko"
+// }
