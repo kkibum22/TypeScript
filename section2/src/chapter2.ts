@@ -14,8 +14,8 @@ let doubleArr: number[][] = [
 
 //튜플 ->길이,타입이 고정된 배열
 let tup1: [number, number] = [1, 2];
-tup1 = [1, 2, 3]; //길이
-tup1 = ["1", "2"]; //타입
+// tup1 = [1, 2, 3]; //길이
+// tup1 = ["1", "2"]; //타입
 
 let tup2: [number, string, boolean] = [1, "2", true];
 //순서에 맞게 맞는 타입이 들어가야됨
@@ -26,5 +26,5 @@ const users: [string, number][] = [
   ["b", 2],
   ["c", 3],
   ["d", 4],
-  [5, "dd"],
+  //   [5, "dd"],
 ];
