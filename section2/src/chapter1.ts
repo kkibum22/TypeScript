@@ -31,5 +31,6 @@ let unde1: undefined = undefined;
 //리터럴 -> 값
 //모든 타입을 리터럴에 넣을 수 있음
 let numB: 10 = 10;
+sdasdsa;
 
 // numB = 12; -> 값은 10만 들어갈수 있음
